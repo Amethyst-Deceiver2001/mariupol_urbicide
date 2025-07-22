@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+
+# Environment/Sensitive
+.env
+
+# QGIS autosaves/backups
+*.qgs~
+*.qgz~
+*.autosave
+
+# Misc
+*.bak
+*.tmp
+*~

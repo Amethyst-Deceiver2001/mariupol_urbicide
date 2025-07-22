@@ -1,0 +1,29 @@
+Total entries: 502
+With coordinates: 470
+Missing coordinates: 32
+
+Top 10 service types:
+service_type_ru
+магазин           136
+unknown            88
+кафе               23
+аптека             11
+парикмахерская     11
+гараж               8
+атб                 6
+юридические         5
+салон               5
+продуктов           4
+
+Top 10 service names:
+service_name_ru
+              287
+магазин         5
+услуги          5
+одежды б/у      4
+ый магазин      4
+азовстали       4
+красоты         4
+церковь         3
+помещение       3
+мкд             3
