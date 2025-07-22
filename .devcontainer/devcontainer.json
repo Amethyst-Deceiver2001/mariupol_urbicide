@@ -1,0 +1,17 @@
+{
+    "name": "Kovalev Alexey kak reka Enisey container",
+    "build": {
+        "dockerfile": "../dockerfile"
+    },
+    "workspaceFolder": "/app",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.pythonPath": "/usr/local/bin/python"
+            },
+            "extensions": [
+                "ms-python.python"
+            ]
+        }
+    }
+}
