@@ -47,7 +47,7 @@ def main():
         description="Creates an RFC 3161 timestamp for a file using a TSA (e.g., DigiCert)."
     )
     parser.add_argument('--input', required=True, help='Path to the input file')
-    parser.add_argument('--tsa-url', default="http://timestamp.digicert.com", help='TSA server URL (RFC 3161)')
+    parser.add_argument('--tsa-url', default="http://tsa.swisssign.net", help='TSA server URL (RFC 3161)')
     parser.add_argument('--output', help='Path to save the .tsr (timestamp token) file')
     args = parser.parse_args()
     asyncio.run(main_async(args))
