@@ -1,12 +1,14 @@
+import os
+BASE_DIR = os.environ.get("PROJECT_ROOT", os.path.dirname(os.path.abspath(__file__)))
 import pandas as pd
 import geopandas as gpd
 from shapely.geometry import Point
 
 # File paths
-COMM_PATH = "data/processed/commercial_harmonized.csv"
-RES_PATH = "data/processed/seized_properties_combined.csv"
-OUT_GEOJSON = "data/processed/seized_properties_combined.geojson"
-OUT_CSV = "data/processed/seized_properties_combined.csv"
+COMM_PATH = os.path.join(BASE_DIR, "data", "processed", "commercial_harmonized.csv")
+RES_PATH = os.path.join(BASE_DIR, "data", "processed", "seized_properties_combined.csv")
+OUT_GEOJSON = os.path.join(BASE_DIR, "data", "processed", "seized_properties_combined.geojson")
+OUT_CSV = os.path.join(BASE_DIR, "data", "processed", "seized_properties_combined.csv")
 
 def norm(s):
     return str(s).lower().replace("ё", "е").replace("й", "и").replace("'", "").replace('"', '').strip()

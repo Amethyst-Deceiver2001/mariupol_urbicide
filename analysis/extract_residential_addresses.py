@@ -1,7 +1,9 @@
+import os
+BASE_DIR = os.environ.get("PROJECT_ROOT", os.path.dirname(os.path.abspath(__file__)))
 import pandas as pd
 
-IN_PATH = "data/raw/residential_seized.csv"
-OUT_PATH = "data/processed/residential_harmonized.csv"
+IN_PATH = os.path.join(BASE_DIR, "data", "raw", "residential_seized.csv")
+OUT_PATH = os.path.join(BASE_DIR, "data", "processed", "residential_harmonized.csv")
 
 df = pd.read_csv(IN_PATH)
 

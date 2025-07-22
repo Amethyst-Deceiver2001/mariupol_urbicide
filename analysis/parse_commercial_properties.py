@@ -1,11 +1,13 @@
+import os
+BASE_DIR = os.environ.get("PROJECT_ROOT", os.path.dirname(os.path.abspath(__file__)))
 import pandas as pd
 import geopandas as gpd
 from shapely.geometry import Point
 import re
 
-INPUT_CSV = "data/processed/seized_properties_combined.csv"
-OUTPUT_CSV = "data/processed/commercial_clean.csv"
-OUTPUT_GEOJSON = "data/processed/commercial_clean.geojson"
+INPUT_CSV = os.path.join(BASE_DIR, "data", "processed", "seized_properties_combined.csv")
+OUTPUT_CSV = os.path.join(BASE_DIR, "data", "processed", "commercial_clean.csv")
+OUTPUT_GEOJSON = os.path.join(BASE_DIR, "data", "processed", "commercial_clean.geojson")
 
 # Load combined data
 df = pd.read_csv(INPUT_CSV)

@@ -1,7 +1,9 @@
+import os
+BASE_DIR = os.environ.get("PROJECT_ROOT", os.path.dirname(os.path.abspath(__file__)))
 import fitz  # PyMuPDF
 
-pdf_path = "/Users/alexeykovalev/Desktop/urbicide_project/data/raw/dpr_doc/012_Reznichenko.pdf"
-output_txt = "/Users/alexeykovalev/Desktop/urbicide_project/data/raw/dpr_doc/012_Reznichenko_extracted.txt"
+pdf_path = os.path.join(BASE_DIR, "data", "raw", "dpr_doc", "012_Reznichenko.pdf")
+output_txt = os.path.join(BASE_DIR, "data", "raw", "dpr_doc", "012_Reznichenko_extracted.txt")
 
 doc = fitz.open(pdf_path)
 with open(output_txt, "w", encoding="utf-8") as out_file:

@@ -1,8 +1,10 @@
+import os
+BASE_DIR = os.environ.get("PROJECT_ROOT", os.path.dirname(os.path.abspath(__file__)))
 import json
 
 # Paths to your files
-cache_path = "/Users/alexeykovalev/Desktop/mariupol_project/cache/f38d80e5ba0a46f657ae03d9c9b8f447540a5210.json"
-output_path = "/Users/alexeykovalev/Desktop/urbicide_project/data/raw/boundaries/mariupol_hromada_boundary.geojson"
+cache_path = os.path.join(BASE_DIR, "cache", "f38d80e5ba0a46f657ae03d9c9b8f447540a5210.json")
+output_path = os.path.join(BASE_DIR, "data", "raw", "boundaries", "mariupol_hromada_boundary.geojson")
 
 # Load the cache file (which may be a dict or a list)
 with open(cache_path, "r", encoding="utf-8") as f:

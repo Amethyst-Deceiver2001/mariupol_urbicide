@@ -1,3 +1,5 @@
+import os
+BASE_DIR = os.environ.get("PROJECT_ROOT", os.path.dirname(os.path.abspath(__file__)))
 import pandas as pd
 import requests
 import os
@@ -7,10 +9,10 @@ from shapely.geometry import Point
 
 # Configuration
 API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
-INPUT_CSV = "data/raw/commercial_seized_cleaned.csv"
-OUTPUT_CSV = "data/processed/commercial_seized_geocoded.csv"
-OUTPUT_GEOJSON = "data/processed/commercial_seized_geocoded.geojson"
-SUMMARY_TXT = "data/processed/commercial_seized_summary.txt"
+INPUT_CSV = os.path.join(BASE_DIR, "data", "raw", "commercial_seized_cleaned.csv")
+OUTPUT_CSV = os.path.join(BASE_DIR, "data", "processed", "commercial_seized_geocoded.csv")
+OUTPUT_GEOJSON = os.path.join(BASE_DIR, "data", "processed", "commercial_seized_geocoded.geojson")
+SUMMARY_TXT = os.path.join(BASE_DIR, "data", "processed", "commercial_seized_summary.txt")
 
 # Load data
 df = pd.read_csv(INPUT_CSV)
