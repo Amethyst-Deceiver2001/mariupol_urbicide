@@ -1,4 +1,3 @@
-```markdown
 # Mariupol Administrative Violence Documentation Project
 
 ## Self-Reported Urbicide: How Occupiers Document Their Own War Crimes
