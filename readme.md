@@ -54,62 +54,60 @@ The following flowchart illustrates the two distinct pathways through which Russ
 ADMINISTRATIVE PATHWAYS OF PROPERTY DISPOSSESSION IN OCCUPIED MARIUPOL
 ═══════════════════════════════════════════════════════════════════════
 
-                     ┌─────────────────────────────────┐
-                     │   Damaged or Destroyed Building │
-                     │        (Post-Invasion)          │
-                     └─────────────────┬───────────────┘
-                                       │
-                     ┌─────────────────▼───────────────┐
-                     │  Administrative Assessment by   │
-                     │    Occupation Authorities       │
-                     └─────────────────┬───────────────┘
-                                       │
-                         ┌─────────────┴─────────────┐
-                         │                           │
-                         ▼                           ▼
-
+             ┌─────────────────────────────────┐
+             │   Damaged or Destroyed Building │
+             │         (Post-Invasion)         │
+             └────────────────┬────────────────┘
+                              │
+             ┌────────────────▼────────────────┐
+             │  Administrative Assessment by   │
+             │     Occupation Authorities      │
+             └────────────────┬────────────────┘
+                              │
+           ┌──────────────────┴──────────────────┐
+           │                                     │
 PATH 1: SELECTIVE DEMOLITION          PATH 2: MASS CLEARANCE
 (Nakhimova 82 Case)                   (Left Bank Quarter Case)
-┌─────────────────────┐               ┌─────────────────────┐
-│ Damaged but intact  │               │ Dense residential   │
-│ 3-story building    │               │ neighborhood with   │
-│                     │               │ ~30 apartment blocks│
-└──────────┬──────────┘               └──────────┬──────────┘
            │                                     │
-┌──────────▼──────────┐               ┌──────────▼──────────┐
-│ Demolition decree   │               │ Systematic clearing │
-│ issued without      │               │ operations begin    │
-│ explanation         │               │                     │
-└──────────┬──────────┘               └──────────┬──────────┘
+┌──────────▼───────────┐             ┌───────────▼───────────┐
+│ Damaged but intact   │             │ Dense residential     │
+│ 3-story building     │             │ neighborhood with     │
+│                      │             │ ~30 apartment blocks  │
+└──────────┬───────────┘             └───────────┬───────────┘
            │                                     │
-┌──────────▼──────────┐               ┌──────────▼──────────┐
-│ Building demolished │               │ Complete bulldozing │
-│ (late 2022)         │               │ of all structures   │
-│                     │               │                     │
-└──────────┬──────────┘               └──────────┬──────────┘
+┌──────────▼───────────┐             ┌───────────▼───────────┐
+│ Demolition decree    │             │ Systematic clearing   │
+│ issued without       │             │ operations begin      │
+│ explanation          │             │                       │
+└──────────┬───────────┘             └───────────┬───────────┘
            │                                     │
-┌──────────▼──────────┐               ┌──────────▼──────────┐
-│ New luxury condos   │               │ Area remains empty  │
-│ built on same spot  │               │ cleared lot with    │
-│                     │               │ no reconstruction   │
-└──────────┬──────────┘               └──────────┬──────────┘
+┌──────────▼───────────┐             ┌───────────▼───────────┐
+│ Building demolished  │             │ Complete bulldozing   │
+│ (late 2022)          │             │ of all structures     │
+│                      │             │                       │
+└──────────┬───────────┘             └───────────┬───────────┘
            │                                     │
-┌──────────▼──────────┐               ┌──────────▼──────────┐
-│ NEW ADDRESS:        │               │ Mass displacement:  │
-│ Chernomorsky Lane 1B│               │ Hundreds of families│
-│ (not Nakhimova 82)  │               │ permanently displaced│
-└──────────┬──────────┘               └──────────┬──────────┘
+┌──────────▼───────────┐             ┌───────────▼───────────┐
+│ New luxury condos    │             │ Area remains empty    │
+│ built on same spot   │             │ cleared lot with      │
+│                      │             │ no reconstruction     │
+└──────────┬───────────┘             └───────────┬───────────┘
            │                                     │
-           └─────────────┬─────────────────────────┘
-                         │
-           ┌─────────────▼─────────────┐
-           │      COMMON RESULT:       │
-           │                           │
-           │ Original residents lose   │
-           │ all property claims       │
-           │ through administrative    │
-           │ manipulation             │
-           └───────────────────────────┘
+┌──────────▼───────────┐             ┌───────────▼───────────┐
+│ NEW ADDRESS:         │             │ MASS DISPLACEMENT:    │
+│ Chernomorsky Lane 1B │             │ Hundreds of families  │
+│ (not Nakhimova 82)   │             │ permanently displaced │
+└──────────┬───────────┘             └───────────┬───────────┘
+           │                                     │
+           └──────────────────┬──────────────────┘
+                              │
+             ┌────────────────▼────────────────┐
+             │          COMMON RESULT:         │
+             │                                 │
+             │   Original residents lose all   │
+             │     property claims through     │
+             │   administrative manipulation   │
+             └─────────────────────────────────┘
 
 KEY DISTINCTIONS:
 ─────────────────
