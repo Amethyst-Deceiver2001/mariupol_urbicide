@@ -19,4 +19,4 @@ requests
 csvkit
 pytesseract
 pillow
-rfc3161ng
+pyhanko
