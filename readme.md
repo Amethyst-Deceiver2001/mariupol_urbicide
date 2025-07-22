@@ -134,7 +134,7 @@ Each pathway generates traceable documentation on official occupation websites:
 
 ## Key Findings: Systematic Documentation of Systematic Crimes
 
-**Scale**: Over 500 documented property seizures with complete paper trails leading to specific Russian officials who signed each order.
+**Scale**: Over 12.000 documented property seizures with complete paper trails leading to specific Russian officials who signed each order.
 
 **Geographic Patterns**: Premium locations (sea views, central districts) systematically targeted, suggesting economic rather than security motivations.
 
