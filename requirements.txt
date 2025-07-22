@@ -8,7 +8,7 @@ googlemaps
 transliterate
 postal
 diagrams
-psycopg2-binary
+psycopg2
 pdfplumber
 PyPDF2>=3.0.0
 pymupdf
