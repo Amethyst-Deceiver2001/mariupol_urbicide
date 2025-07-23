@@ -22,3 +22,5 @@ Thumbs.db
 *.bak
 *.tmp
 *~
+
+.devcontainer/devcontainer.json
